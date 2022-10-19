@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    background: url('img/modern-warfare-2-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+
+}
+
+.header{
+    background-color: rgba(44, 53, 57, 0.8);
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.link-wrapper{
+    display: flex;
+    gap:20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-body-left{
+    width: 600px;
+}
+.header-img{
+    height: 300px;
+    width: 600px;
+
+}
+
+.btn{
+    background-color: #68b631;
+    color: white;
+    font-size: 20px;
+    font:bolder;
+    width: 150px;
+    height: 50px;
+    text-shadow: 2px 2px #1f2937;
+    box-shadow: 2px 2px #1f2937 ;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.window-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.thumbnail{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(44, 53, 57);
+}
+
+.window{
+    width: 200px;
+}
